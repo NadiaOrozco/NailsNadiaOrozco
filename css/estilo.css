@@ -1,0 +1,137 @@
+body{
+ background:#FFC0CB;
+}
+
+#principal{
+    width: 900px;
+    height: 1000px;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+#logo{
+    position:relative;
+   width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+ text-align: center;
+}
+
+.menu{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 40px;
+    background:#C71585;
+}
+
+.menu ul{}
+
+.menu ul li{
+   list-style: none;
+   float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+     background: white;
+     color: #82B545;
+     border: 2px solid pink;
+     transition: background 1s, color 1s;
+}
+#slide{
+  align:center;
+  margin-top: 1px;
+  width:900px;
+  height:700px;
+ text-align: center;
+}
+.logos{
+  position:relative;
+  left:500px;
+}
+ 
+#categorias{
+width:900px;
+  height:auto; overflow: hidden;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.uno{
+width: 290px;
+height: auto; overflow: hidden; 
+border: 1px sooid;
+float: left:
+padding: 5px;
+ text-align: center;
+}
+
+.dos{
+margin-left: 2px;
+margin-right: 12px;
+ text-align: center;
+
+}
+
+.leer-mas{
+text-decoration: none;
+boredr:1px; solid #006699;
+padding: 10px 20px 10px 20px;
+margin: 10px;
+ text-align: center;
+
+}
+
+.leer-mas:hover{
+ background: #006699;
+ color: "fff;
+ transition: background 1s, color1s;
+}
+
+.iconos-sociales{
+ position:static;
+ left: 300px;
+ bottom:50px;
+ text-align: center;
+ text-align: center;
+}
+
+<style>
+.iconos-sociales img{ 
+transition:all 0.5s ease-out; 
+}
+.iconos-sociales img:hover{ 
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1); 
+transform:translate(0px, -5px); 
+}
+</style>
+
+.container {
+  display: grid;
+  place-content: center;
+}
+
+ <!-- Aquí van los estilos -->
+
+}
+
+
+ 
+ 
+
+
+  
